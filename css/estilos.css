@@ -505,8 +505,7 @@ a{
     padding: 1vw 0vw
 }
 .developer,.hacker, .cloud{
-    width: 400px;
-    margin: 0% 2%;
+    width: 300px;
     background: #dff7ff;
     border-radius: 5%;
     transition: .3s;
@@ -521,19 +520,11 @@ a{
 }
 .developer__img h2,.hacker__img h2, .cloud__img h2{
     text-align: center;
-    margin-top: 10%;
-}
-.developer__parrafo,.hacker__parrafo, .cloud__parrafo{
-    width: 100%;
-    padding: 0vw 2vw;
+    margin-bottom: 10%;
 }
 .developer img,  .hacker img, .cloud img{
     width: 100px;
     margin: 3vw 0;
-}
-.developer__parrafo p,  .hacker__parrafo p, .cloud__parrafo p{
-    color: black;
-    margin: 4vw;
 }
 
 @media (max-width: 768px){
