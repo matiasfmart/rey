@@ -574,11 +574,12 @@ a{
 }
 .contacto h1{
     font-size: 4vw;
-    margin: 5vw 3vw;
+    margin: 2vw 3vw;
     text-align: left;
+    padding: 50px 50px 0 0;
 }
 .contacto__container{
-    margin: auto;
+    margin: 0 auto;
     display: flex;
 }
 .contacto__medios{
@@ -601,14 +602,16 @@ a{
     height: 40%;
     margin: 100px auto;
     position: relative;
-    top: 40px;
+    top: 15px;
     text-align: center;
 }
 .contacto__ubicacion img{
     width: 70px;
+    margin: 10px;
 }
 .contacto__ubicacion h3{
     font-family: 'Roboto', sans-serif;
+    margin: 10px;
 }
 
 footer{
