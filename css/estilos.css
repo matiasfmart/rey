@@ -531,10 +531,10 @@ a{
     .areasdeinteres__container{
         width: 80%;
         flex-direction: column;
-        margin: 50px auto;
+        margin: 0 auto;
     }
     .areasdeinteres{
-        margin: 250px auto;
+        margin: 150px auto;
     }
     .areasdeinteres h1{
         font-size: 45px;
@@ -607,6 +607,7 @@ a{
 @media (max-width: 768px){
     .contacto{
         width: 95%;
+        margin: 40px auto;
     }
     .contacto__container{
         display: inline-block;
