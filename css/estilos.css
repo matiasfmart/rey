@@ -352,6 +352,9 @@ a{
       position: relative;
       transition: .3s;
   }
+  .jquery img, .git img{
+      width: 1000px;
+  }
 
   .slick-slide img:hover {
     transform: scale(1.1);
