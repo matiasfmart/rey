@@ -70,6 +70,7 @@ a{
 
 #navbar ul li a:hover {
     border-bottom: solid 1px white;
+    color: white;
 }
 .presentacion{
     background: linear-gradient(to right, #000000bd, #000000ad, #0000008f, #000000a1, #0000008c),url(../img/present.jpg);
