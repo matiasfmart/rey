@@ -1,195 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="Iw8JZXuVMgjsKzLjIBAfNqyMv1Env1b0DPMte5qJApk" />
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/mfmblanco.png">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="Iw8JZXuVMgjsKzLjIBAfNqyMv1Env1b0DPMte5qJApk"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="./img/mfmblanco.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/estilos.css" />
-    <title>matiasfmart</title> 
-</head>
-<body>
-    <!-- <header>
-        <nav id="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="./img/mfmblanco.png" alt=""></a>
-            </div>
-            <div class="menucontainer">
-                <ul>
-                    <li><a href="#" class="scroll">INICIO</a></li>
-                    <li><a href="#sobremi" class="scroll">SOBRE MÍ</a></li>
-                    <li><a href="#estudios" class="scroll">ESTUDIOS</a></li>
-                    <li><a href="#conocimientos" class="scroll">CONOCIMIENTOS</a></li>
-                    <li><a href="#areasdeinteres" class="scroll">AREAS DE INTERÉS</a></li>
-                    <li><a href="#contacto" class="scroll">CONTACTO</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
-
+    <title>Rey</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-          <div class="header__body">
-            <a href="" class="header__logo">
-            <img src="./img/mfmblanco.png" alt="logo">
-            </a>
-            <div class="header__burger">
-              <span></span>
-            </div>
-            <nav class="header__menu">
-              <ul class="header__list">
-                <li>
-                  <a href="#" class="header__link">INICIO</a>
-                </li>
-                <li>
-                  <a href="#sobremi" class="header__link">SOBRE MI</a>
-                </li>
-                <li>
-                  <a href="#estudios" class="header__link">ESTUDIOS</a>
-                </li>
-                <li>
-                  <a href="#conocimientos" class="header__link">CONOCIMIENTOS</a>
-                </li>
-                <li>
-                  <a href="#areasdeinteres" class="header__link">AREAS DE INTERES</a>
-                </li>
-                <li>
-                  <a href="#contacto" class="header__link">CONTACTO</a>
-                </li>
-              </ul>
-            </nav>
+      <div class="container">
+        <div class="header__body">
+          <a href="" class="header__logo">
+            <h1>REY</h1>
+          </a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li>
+                <a href="#" class="header__link">INICIO</a>
+              </li>
+              <li>
+                <a href="#info" class="header__link">INFO</a>
+              </li>
+              <li>
+                <a href="#estudios" class="header__link">TRABAJOS</a>
+              </li>
+              <li>
+                <a href="#contacto" class="header__link">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="presentacion">
+      <a name="inicio"></a>
+      <div class="presentacion__container">
+        <div class="presentacion__texto">
+          <h1>Rey - Albañileria</h1>
+          <h3>Plomeria, Gas, Durlock, Pintura, Construccion</h3>
+        </div>
+        <a href="wa.me/5491135934155">CONTACTO</a>
+      </div>
+    </section>
+    <a name="info"></a>
+    <section class="sobremi">
+      <div class="sobremi__container">
+        <div class="sobremi__texto">
+          <h1>Info</h1>
+          <p>
+            Presupuestos en el acto. Trabajos con detalles y excelencia.
+          </p>
+        </div>
+        <div class="sobremi__image">
+          <img src="./img/6.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <a name="estudios"></a>
+    <section class="estudios">
+      <h1 class="estudios__titulo">Trabajos</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/3.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/4.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/5.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/6.jpeg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </header>
-
-    <section class="presentacion"><a name="inicio"></a>
-        <div class="presentacion__container">
-            <div class="presentacion__texto">
-                <h3>¡Hola! Soy</h3>
-                <h1>Matias Federico Martinez</h1>
-                <h3>Estudiante de sistemas, programador, autodidacta y músico.</h3>
-            </div>
-            <a href="micv.pdf" download="Curriculum Vitae - Matias Martinez">MI CV</a>
-        </div>
-    </section><a name="sobremi"></a>
-    <section class="sobremi">
-        <div class="sobremi__container">
-            <div class="sobremi__texto">
-                <h1>Sobre Mí</h1>
-                <p>
-                    Actualmente estoy en el área de Soporte IT como Service Desk, y en la universidad estudio programación, donde adquirí conocimientos en .NET con C#, POO, y programación estructurada en C. También tengo conocimientos en HTML y CSS, Bootstrap, Sass, Javascript, Jquery y AJAX estudiando en Coderhouse.
-                    <br>Mi objetivo es poder adquirir experiencia laboral en lo que estudio, para crecer en el área y poder en un futuro utilizar mis conocimientos y crecer en otros campos de tecnologías que me interesan como DevOps, Ciberseguridad, Cloud, Análisis Funcional y Ciencia de Datos.
-                    <br>Soy una persona comprometida con el puesto, en constante desarrollo profesional y personal, con muchas ganas de aprender y crecer, utilizo todo lo que esta a mi alcance para poder avanzar y luego realizar mejor mi trabajo. 
-                </p>
-            </div>
-            <div class="sobremi__image">
-                <img src="./img/perfil.jpg" alt="">
-            </div>
-        </div>
-    </section><a name="estudios"></a>
-    <section class="estudios">
-        <h1 class="estudios__titulo">Estudios</h1>
-        <div class="uai">
-            <div class="uai__titulo">
-                <h1>UAI</h1>
-                <h2>Ingeniería en Sistemas Informáticos</h2>
-                <h2 class="estado">Cursando</h2>
-             </div>
-            <p>Cursando desde el 2020 el terciario de Analista Programador, que articula directamente con Ingeniería en Sistemas Informáticos. Las tecnologías vistas para destacar hasta el momento fueron programación estructurada utilizando C, programación orientada a objetos utilizando C# con .NET, assembler, y herramientas UML en diseño de sistemas.</p>
-        </div>
-        <div class="secundaria">
-            <div class="secundaria__titulo">
-                <h1>EEST Nº9</h1>
-                <h2>Tecnico en Electrónica</h2>
-                <h2 class="estado">Terminado</h2>
-            </div>
-            <p>Me egresé de la especialidad electrónica en el año 2017. He realizado proyectos electrónicos como amplificadores de audio, sistemas de control de motores, sistemas de alarmas en los cuales se programaban las plaquetas utilizando lenguaje C, entre otros. Me encanta la electrónica.</p>
-        </div><a name="conocimientos"></a>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-
-    
-    <section class="conocimientos">
-        <h1>Conocimientos y Herramientas</h1>
-
-            <div class="container">
-            <section class="customer-logos slider">
-                <div class="slide"><img src="./img/html.png"></div>
-                <div class="slide"><img src="./img/css.png"></div>
-                <div class="slide"><img src="./img/boostrap.png"></div>
-                <div class="slide"><img src="./img/sass.png"></div>
-                <div class="slide"><img src="./img/jscolor.png"></div>
-                <div class="slide jquery"><img src="./img/jquery.png"></div>
-                <div class="slide jquery"><img src="./img/react.png"></div>
-                <div class="slide"><img src="./img/csharp.png"></div>
-                <div class="slide"><img src="./img/C.png"></div>
-                <div class="slide git"><img src="./img/git.png"></div>
-                <div class="slide"><img src="./img/vscode.svg"></div>
-            </section>
-            </div>
-        <!-- <div class="conocimientos__imagenes">
-            <div class="conocimientos__imagenesimg"><img src="../img/html.png" alt=""></div>
-            <div class="conocimientos__imagenesimg"><img src="../img/css.png" alt=""></div>
-            <div class="conocimientos__imagenesimg"><img src="../img/boostrap.png" alt=""></div>
-            <div class="conocimientos__imagenesimg"><img src="../img/sass.png" alt=""></div>
-            <div class="conocimientos__imagenesimg"><img src="../img/jscolor.png" alt=""></div> 
-            <div class="conocimientos__imagenesimg"><img src="../img/csharp.png" alt=""></div> 
-            <div class="conocimientos__imagenesimg"><img src="../img/C.png" alt=""></div> 
-        </div>           -->
-    </section><a name="areasdeinteres"></a>
-    <section class="areasdeinteres">
-        <h1>Areas de Interés</h1>
-
-        <div class="areasdeinteres__container">
-            <div class="developer">
-                <div class="developer__img">
-                    <img src="./img/developer.png" alt="">
-                    <h2>Desarrollo</h2>
-                </div>
-            </div>
-            <div class="cloud">
-                <div class="cloud__img">
-                    <img src="./img/cloud.png" alt="">
-                    <h2>Cloud</h2>
-                </div>
-            </div>
-            <div class="hacker">
-                <div class="hacker__img">
-                    <img src="./img/hacker.png" alt="">
-                    <h2>Seguridad Informática</h2>
-                </div>
-            </div>
-        </div>
-    </section><a name="contacto"></a>
+    <a name="contacto"></a>
     <section class="contacto">
-        <h1>Contacto</h1>
-        <div class="contacto__container">
-            <div class="contacto__medios">
-                <a href="mailto:martinez.matiashc@gmail.com.com"><img src="./img/email.png" alt="">martinez.matiashc@gmail.com</a>
-                <a class="phone"><img src="./img/celular.png" >+54 9 1131060429</a>
-                <a href="https://linkedin.com/in/matiasfmart"><img src="./img/linkedin.png" alt="">linkedin.com/in/matiasfmart</a>
-            </div>
-            <div class="contacto__ubicacion">
-                <img src="./img/ubicacion.png" alt="">
-                <h3>Bs As, Argentina</h3>
-            </div>
-       </div>
+      <h1>Contacto</h1>
+      <div class="contacto__container">
+        <div class="contacto__medios">
+            <button class="btn btn-success btn-lg">Whatsapp</button>
+        </div>
+        <div class="contacto__ubicacion">
+          <img src="./img/ubicacion.png" alt="" />
+          <h3>Bs As, Argentina</h3>
+        </div>
+      </div>
     </section>
     <footer>
-        <div class="footer__container">
-            <div class="footer__contacto">
-                <a href="https://linkedin.com/in/matiasfmart"><img class="footer__imagen"src="./img/linkedin.png" alt=""></a>
-                <a href="https://github.com/matiasfmart"><img class="footer__imagen"src="./img/github.png" alt=""></a>
-                <a href="https://wa.me/5491131060429"><img class="footer__imagen"src="./img/whatsapp.png" alt=""></a>
-                <a href="mailto:martinez.matiashc@gmail.com.com"><img class="footer__imagen"src="./img/email.png" alt=""></a>
-            </div>
+      <div class="footer__container">
+        <div class="footer__contacto">
+            <h1>REY - Albañil</h1>
         </div>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="./js/script.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
