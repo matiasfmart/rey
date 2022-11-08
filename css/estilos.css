@@ -662,7 +662,7 @@ a {
     margin: 40px auto;
   }
   .contacto__container {
-    display: inline-block;
+    display: block;
   }
   .contacto h1 {
     font-size: 45px;
@@ -671,6 +671,7 @@ a {
   }
   .contacto__medios {
     width: 100%;
+    text-align: center;
   }
   .contacto__medios a {
     font-size: 18px;
