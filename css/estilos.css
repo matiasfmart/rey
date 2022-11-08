@@ -318,7 +318,7 @@ a {
 }
 @media (max-width: 768px) {
   .sobremi {
-    height: 1100px;
+    height: 200px;
     width: 100%;
   }
   .sobremi__container {
@@ -346,139 +346,10 @@ a {
   margin: auto;
 }
 
-.estudios__titulo {
-  font-size: 4vw;
-}
-.estudios .estado {
-  font-style: italic;
-  color: rgb(226, 226, 226);
-  margin-top: 1vw;
-}
-
-.uai {
-  display: flex;
-  height: 18vw;
-  align-items: center;
-}
-
-.uai__titulo {
-  width: 50%;
-}
-.uai__titulo h1 {
-  font-size: 3vw;
-  margin-bottom: 1vw;
-}
-.uai__titulo h2 {
-  font-size: 1.5vw;
-  text-align: left;
-  padding: 0%;
-}
-.uai p {
-  width: 50%;
-  line-height: 140%;
-}
-
-.secundaria {
-  display: flex;
-  height: 20vw;
-  align-items: center;
-}
-
-.secundaria__titulo {
-  width: 50%;
-}
-.secundaria__titulo h1 {
-  font-size: 3vw;
-  margin-bottom: 1vw;
-}
-.secundaria__titulo h2 {
-  font-size: 1.5vw;
-  text-align: left;
-  padding: 0%;
-}
-.secundaria p {
-  width: 50%;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  line-height: 140%;
-}
 @media (max-width: 768px) {
   .estudios {
-    height: 800px;
-  }
-  .estudios__titulo {
-    font-size: 45px;
-    width: 90%;
-    text-align: left;
-    margin: 35px auto;
-  }
-  .uai {
-    display: block;
-    width: 90%;
-    height: 600px;
-    margin: auto;
-  }
-  .uai__titulo {
-    display: inline-block;
-    width: 100%;
-  }
-  .uai__titulo h1 {
-    font-size: 30px;
-    margin-bottom: 1vw;
-  }
-  .uai__titulo h2 {
-    font-size: 20px;
-    text-align: left;
-    padding: 0%;
-  }
-  .uai p {
-    margin: 30px 0;
-    font-size: 20px;
-    width: 100%;
-  }
-  .secundaria {
-    display: block;
-    width: 90%;
     height: 400px;
-    margin: auto;
   }
-  .secundaria__titulo {
-    display: inline-block;
-    width: 100%;
-    margin: 30px 0;
-  }
-  .secundaria__titulo h1 {
-    font-size: 30px;
-    margin-bottom: 1vw;
-  }
-  .secundaria__titulo h2 {
-    font-size: 20px;
-    text-align: left;
-    padding: 0%;
-  }
-  .secundaria p {
-    font-size: 20px;
-    width: 100%;
-  }
-}
-.conocimientos {
-  width: 90%;
-  height: 30vw;
-  margin: 15vw auto;
-  background-color: rgb(255, 255, 255);
-}
-.conocimientos h1 {
-  font-size: 4vw;
-  margin: 5vw 3vw;
-  text-align: center;
-}
-@media (max-width: 768px) {
-  .conocimientos h1 {
-    font-size: 45px;
-    width: 90%;
-  }
-}
 /* Slider */
 
 .conocimientos .container {
@@ -845,4 +716,5 @@ footer {
   .footer__container {
     width: 80%;
   }
+}
 }
